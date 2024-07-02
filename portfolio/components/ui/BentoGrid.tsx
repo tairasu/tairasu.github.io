@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -42,7 +42,7 @@ export const BentoGridItem = ({
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
-  list?: [],
+  list?: any;
   header?: React.ReactNode;
   icon?: React.ReactNode;
   id?: number;
@@ -116,23 +116,22 @@ const handleCopy = () => {
             </div>
 
 
-<div className="flex flex-col gap-2">
-  {list?.map((item: { id: number; title: string; description: string; year: string; link: string;}) => (
-    
-    <a href={item.link} target="_blank">
-    <div
-      key={item.id}
-      className={cn(
-        "flex flex-col gap-2 p-2 dark:bg-[#10132E] bg-transparent dark:border-white/[0.15] border-gray-800/10 hover:dark:bg-gray-600 hover:bg-white/75 hover:scale-[1.02] duration-200 rounded-lg dark:shadow-inner hover:shadow-lg h-fit"
-      )}
-    >
-      <div className="flex justify-between">
-          <h1 className="font-bold text-md lg:text-lg dark:text-orange-50 text-orange-950">{item.title}</h1>
-        <p className="font-light text-sm lg:text-md dark:text-orange-50 text-orange-900">{item.year}</p>
+            <div className="flex flex-col gap-2">
+  {list.map((item: { id: number; title: string; description: string; year: string; link: string;}) => (
+    // Move the key prop to the <a> tag, which is the direct child in the list
+    <a href={item.link} target="_blank" key={item.id}>
+      <div
+        className={cn(
+          "flex flex-col gap-2 p-2 dark:bg-[#10132E] bg-transparent dark:border-white/[0.15] border-gray-800/10 hover:dark:bg-gray-600 hover:bg-white/75 hover:scale-[1.02] duration-200 rounded-lg dark:shadow-inner hover:shadow-lg h-fit"
+        )}
+      >
+        <div className="flex justify-between">
+            <h1 className="font-bold text-md lg:text-lg dark:text-orange-50 text-orange-950">{item.title}</h1>
+          <p className="font-light text-sm lg:text-md dark:text-orange-50 text-orange-900">{item.year}</p>
+        </div>
+        <p className="font-light text-sm lg:text-md dark:text-orange-100 text-orange-950">{item.description}</p>
+        
       </div>
-      <p className="font-light text-sm lg:text-md dark:text-orange-100 text-orange-950">{item.description}</p>
-      
-    </div>
     </a>
   ))}
 </div>

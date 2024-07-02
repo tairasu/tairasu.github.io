@@ -13,8 +13,8 @@ declare module "@react-three/fiber" {
 
 extend({ ThreeGlobe });
 
-const RING_PROPAGATION_SPEED = 2;
-const aspect = 1;
+const RING_PROPAGATION_SPEED = 3;
+const aspect = 1.2;
 const cameraZ = 330;
 
 type Position = {
@@ -79,8 +79,8 @@ export function Globe({ globeConfig, data }: WorldProps) {
     atmosphereColor: "#ffffff",
     showAtmosphere: true,
     atmosphereAltitude: 0.1,
-    polygonColor: "rgba(255,255,255,1)",
-    globeColor: "#10132E",
+    polygonColor: "rgba(255,255,255,0.7)",
+    globeColor: "#1d072e",
     emissive: "#000000",
     emissiveIntensity: 0.1,
     shininess: 0.9,
@@ -88,7 +88,6 @@ export function Globe({ globeConfig, data }: WorldProps) {
     arcLength: 0.9,
     rings: 1,
     maxRings: 3,
-    autoRotate: false,
     ...globeConfig,
   };
 
@@ -191,7 +190,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
       .pointColor((e) => (e as { color: string }).color)
       .pointsMerge(true)
       .pointAltitude(0.0)
-      .pointRadius(2);
+      .pointRadius(3);
 
     globeRef.current
       .ringsData([])
@@ -217,7 +216,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
       globeRef.current.ringsData(
         globeData.filter((d, i) => numbersOfRings.includes(i))
       );
-    }, 2000);
+    }, 3000);
 
     return () => {
       clearInterval(interval);
@@ -270,7 +269,7 @@ export function World(props: WorldProps) {
         enableZoom={false}
         minDistance={cameraZ}
         maxDistance={cameraZ}
-        autoRotateSpeed={1}
+        autoRotateSpeed={0.5}
         autoRotate={true}
         minPolarAngle={Math.PI / 3.5}
         maxPolarAngle={Math.PI - Math.PI / 3}

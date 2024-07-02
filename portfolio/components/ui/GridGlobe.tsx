@@ -9,7 +9,7 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
 
 export function GlobeDemo() {
   const globeConfig = {
-    pointSize: 150,
+    pointSize: 3,
     globeColor: "#10132E",
     showAtmosphere: true,
     atmosphereColor: "#FFFFFF",
@@ -30,7 +30,7 @@ export function GlobeDemo() {
     autoRotate: true,
     autoRotateSpeed: 0,
   };
-  const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
+  // const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
   const sampleArcs = [
     {
       order: 1,
@@ -39,7 +39,7 @@ export function GlobeDemo() {
       endLat: 33.7398,
       endLng: 130.7229,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: "#06b6d4",
     },
     {
       order: 2,
@@ -48,7 +48,7 @@ export function GlobeDemo() {
       endLat: 51.233592,
       endLng: 6.783191,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: "#06b6d4",
     }
   ];
 
@@ -58,7 +58,7 @@ export function GlobeDemo() {
 
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
         <div className="absolute w-full h-72 md:h-full z-10">
-          <World data={sampleArcs} globeConfig={globeConfig} />;
+          <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
     </div>

@@ -1,0 +1,256 @@
+{
+  "navItems": [
+    { "name": "Über mich", "link": "#about" },
+    { "name": "Projekte", "link": "#projects" },
+    { "name": "Kontakt", "link": "#contact" }
+  ],
+  "Hero": {
+    "welcome": "Willkommen",
+    "header": "Hi, ich bin Marco, ein Webentwickler, 3D-Artist und Videoproduzent.",
+    "subheader": "Technologie-Enthusiast mit einer Leidenschaft fürs Lernen und Kreieren.",
+    "more": "Erfahre mehr über mich"
+  },
+  "Grid": {
+    "title1": "In Deutschland und Japan ansässiger Entwickler",
+    "desc1": "Zeitlich flexibel",
+    "title2": "Mein Tech-Stack",
+    "desc2": "Ich genieße es, zu lernen und mich zu verbessern",
+    "title3": "Technik-Enthusiast mit einer Leidenschaft für Entwicklung.",
+    "title4": "Derzeit als Freiberufler tätig",
+    "desc4": "Immer auf der Suche nach neuen Projekten.",
+    "contact": "Möchtest Du ein Projekt zusammen starten?",
+    "copyEmail": "Kopiere meine E-Mail"
+  },
+  "CV": [
+    {
+      "id": 1,
+      "title": "edeltravel Luxusreisen GmbH",
+      "description": "Digital Developer",
+      "year": "2023",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "link": "https://edel.travel"
+    },
+    {
+      "id": 2,
+      "title": "Kumamoto Gakuen University",
+      "description": "Business Japanisch studiert",
+      "year": "2022",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "link": "https://www.kumagaku.ac.jp/"
+    },
+    {
+      "id": 3,
+      "title": "Heinrich-Heine-Universität Düsseldorf",
+      "description": "BA - Modernes Japan",
+      "year": "2019",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "link": "https://hhu.de/"
+    },
+    {
+      "id": 4,
+      "title": "Westdeutscher Rundfunk (WDR)",
+      "description": "Video- & Audio-Produzent",
+      "year": "2017",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "link": "https://www1.wdr.de/"
+    },
+    {
+      "id": 5,
+      "title": "SAE Institute Köln",
+      "description": "BA - 3D-Animation & Game Design",
+      "year": "2015",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "link": "https://www.sae.edu/deu/de/"
+    }
+  ],
+  "gridItems": [
+    {
+      "id": 1,
+      "title": "Lebenslauf",
+      "description": "123",
+      "list": [
+        {
+          "id": 1,
+          "title": "edeltravel Luxusreisen GmbH",
+          "description": "Digital Developer",
+          "year": "2023",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+          "imgClassName": "w-full h-full",
+          "titleClassName": "justify-end",
+          "link": "https://edel.travel"
+        },
+        {
+          "id": 2,
+          "title": "Kumamoto Gakuen University",
+          "description": "Business Japanisch studiert",
+          "year": "2022",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+          "imgClassName": "w-full h-full",
+          "titleClassName": "justify-end",
+          "link": "https://www.kumagaku.ac.jp/"
+        },
+        {
+          "id": 3,
+          "title": "Heinrich-Heine-Universität Düsseldorf",
+          "description": "BA - Modernes Japan",
+          "year": "2019",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+          "imgClassName": "w-full h-full",
+          "titleClassName": "justify-end",
+          "link": "https://hhu.de/"
+        },
+        {
+          "id": 4,
+          "title": "Westdeutscher Rundfunk (WDR)",
+          "description": "Video- & Audio-Produzent",
+          "year": "2017",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+          "imgClassName": "w-full h-full",
+          "titleClassName": "justify-end",
+          "link": "https://www1.wdr.de/"
+        },
+        {
+          "id": 5,
+          "title": "SAE Institute Köln",
+          "description": "BA - 3D-Animation & Game Design",
+          "year": "2015",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+          "imgClassName": "w-full h-full",
+          "titleClassName": "justify-end",
+          "link": "https://www.sae.edu/deu/de/"
+        }
+      ],
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "img": "",
+      "spareImg": ""
+    },
+    {
+      "id": 2,
+      "title": "In Deutschland und Japan ansässiger Entwickler",
+      "description": "Zeitlich flexibel",
+      "list": [],
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+      "imgClassName": "",
+      "titleClassName": "justify-start",
+      "img": "",
+      "spareImg": ""
+    },
+    {
+      "id": 3,
+      "title": "Mein Tech-Stack",
+      "description": "Ich genieße es, zu lernen und mich zu verbessern",
+      "list": [],
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+      "imgClassName": "",
+      "titleClassName": "justify-center",
+      "img": "",
+      "spareImg": ""
+    },
+    {
+      "id": 4,
+      "title": "Technik-Enthusiast mit einer Leidenschaft für Entwicklung.",
+      "description": "",
+      "list": [],
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+      "imgClassName": "",
+      "titleClassName": "justify-start",
+      "img": "/grid.svg",
+      "spareImg": "/b4.svg"
+    },
+    {
+      "id": 5,
+      "title": "Derzeit als Freiberufler tätig",
+      "description": "Immer auf der Suche nach neuen Projekten.",
+      "list": [],
+      "className": "md:col-span-3 md:row-span-2",
+      "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
+      "titleClassName": "justify-center md:justify-start lg:justify-center",
+      "img": "/b5.svg",
+      "spareImg": "/grid.svg"
+    },
+    {
+      "id": 6,
+      "title": "Möchten Sie ein Projekt zusammen starten?",
+      "description": "",
+      "list": [],
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+      "imgClassName": "",
+      "titleClassName": "justify-center md:max-w-full max-w-60 text-center",
+      "img": "",
+      "spareImg": ""
+    }
+  ],
+  "selectionOfProjects": "Eine Auswahl meiner neuesten Projekte",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Intranet für ein Reisebüro",
+      "des": "Ein leichtgewichtigesIntranet für ein Reisebüro, das eine Sammlung von Informationen an einem Ort hat.",
+      "img": "/intranet-preview.png",
+      "iconLists": ["/tail.svg", "/wp.svg", "/php.svg"],
+      "link": "https://tylus.dev/intranet"
+    },
+    {
+      "id": 2,
+      "title": "Website der Felice Musikschule",
+      "des": "Eine Website für eine japanische Musikschule in Nogata, Fukuoka.",
+      "img": "/felice-preview.png",
+      "iconLists": ["/tail.svg", "/wp.svg", "/php.svg"],
+      "link": "https://felice.school/"
+    },
+    {
+      "id": 3,
+      "title": "Japan-Fahren",
+      "des": "Ein erschwinglicher Führerscheinerwerbsdienst für deutsche Touristen in Japan.",
+      "img": "/japan-fahren-preview.png",
+      "iconLists": ["/tail.svg", "/ts.svg", "/wp.svg", "/php.svg"],
+      "link": "https://japan-fahren.de"
+    },
+    {
+      "id": 4,
+      "title": "Verschiedene Projekte",
+      "des": "Eine Sammlung kleiner Open-Source-Projekte, an denen ich in der Vergangenheit gearbeitet habe.",
+      "img": "/github-preview.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/ts.svg",
+        "/wp.svg",
+        "/php.svg",
+        "/rust.svg",
+        "/python.svg"
+      ],
+      "link": "https://github.com/tairasu"
+    }
+  ],
+  "contactMe": {
+    "title": "Kontaktieren Sie mich, um Ihr Projekt zu starten",
+    "desc": "Brauchen Sie IT-Unterstützung? Einen Server einrichten? Oder einfach nur eine Website für Ihr Unternehmen? Lassen Sie uns in Kontakt treten!",
+    "button": "Kontaktieren Sie mich"
+  },
+
+  "socialMedia": [
+    {
+      "id": 1,
+      "img": "/git.svg",
+      "link": "https://github.com/tairasu"
+    },
+    {
+      "id": 2,
+      "img": "/link.svg",
+      "link": "https://linkedin.com/in/marco-tylus"
+    }
+  ]
+}

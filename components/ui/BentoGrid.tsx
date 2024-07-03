@@ -24,7 +24,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto z-20",
         className
       )}
     >
@@ -71,7 +71,7 @@ const handleCopy = () => {
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none z-20 dark:border-white/[0.15] dark:bg-gray-800 bg-gray-100 border border-transparent justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none dark:border-white/[0.15] dark:bg-gray-800 bg-gray-100 border border-transparent justify-between flex flex-col space-y-4",
         className
       )}
     >

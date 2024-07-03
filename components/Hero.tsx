@@ -28,12 +28,12 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-20 flex flex-col justify-center items-start px-5 lg:pt-24 lg:px-32 flex-grow">
+      <div className="relative z-20 flex flex-col justify-start items-start px-5 lg:pt-24 lg:px-32 flex-grow">
         <h2 className="uppercase tracking-widest text-xs text-left dark:text-blue-100 text-blue-950 max-w-80">
           {/* {t("Hero.welcome")} */}
         </h2>
         <TextGenerateEffect
-          className="text-left text-2xl md:text-5xl lg:text-6xl max-w-3xl"
+          className="text-left text-2xl md:text-5xl lg:text-6xl max-w-3xl mt-24"
           words="Hi, I am Marco, a Web Developer, 3D Artist and Video Producer."
         />
         <p className="text-left dark:text-white text-gray-600 md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">

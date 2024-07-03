@@ -1,9 +1,7 @@
-// 'use client';
-
+// layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,8 +10,6 @@ export const metadata: Metadata = {
   description: "Marco Tylus - Front End Developer - Portfolio",
 };
 
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,16 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-        </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

@@ -1,8 +1,12 @@
+'use client';
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from 'next/image';
+
+
 
 const Hero = () => {
 
@@ -29,10 +33,12 @@ const Hero = () => {
 
         <div className="">
           <div className="flex justify-end items-end lg:w-full h-auto w-52 mx-auto absolute right-0 bottom-0 z-10">
-            <img
+            <Image
               src="/resources/Marco_2.png"
               alt="Marco Tylus"
               className="lg:w-96 w-64 md:w-72 h-auto"
+              width={300}
+              height={300}
             />
           </div>
         </div>

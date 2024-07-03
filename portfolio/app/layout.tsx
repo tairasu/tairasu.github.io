@@ -1,3 +1,5 @@
+// 'use client';
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -9,6 +11,8 @@ export const metadata: Metadata = {
   title: "Marco Tylus - Frontend Developer",
   description: "Marco Tylus - Front End Developer - Portfolio",
 };
+
+
 
 export default function RootLayout({
   children,

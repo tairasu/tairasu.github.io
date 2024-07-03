@@ -3,11 +3,16 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+// import Lottie from "lottie-react";
 import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import Image from 'next/image';
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
 export const BentoGrid = ({
   className,
   children,
@@ -73,9 +78,11 @@ const handleCopy = () => {
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
+              width={300}
+              height={300}
               className={cn(imgClassName, "object-cover, object-center")}
             />
           )}
@@ -86,9 +93,10 @@ const handleCopy = () => {
           }`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
+              fill={true}
               className={"object-cover, object-center w-full h-full"}
             />
           )}
@@ -185,15 +193,11 @@ const handleCopy = () => {
           {id === 6 && (
             <div className="mt-5 relative">
               <div className={`absolute -bottom-5 right-0`}>
-              <Lottie options={{
-                loop: copied,
-                autoplay: copied,
-                animationData: animationData,
-                rendererSettings: {
-                  preserveAspectRatio: 'xMidYMid slice'
-                }
-
-              }}/>
+              <Lottie
+                loop={copied} 
+                autoplay={copied}
+                animationData={animationData} 
+                />
               </div>
               <MagicButton 
               title={copied ? 'Copied!' : 'Copy my E-Mail'}

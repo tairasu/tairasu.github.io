@@ -9,17 +9,16 @@ import { navItems } from "@/data";
 
 function Home() {
   return (
-
-      <main className="relative dark:bg-gray-900 bg-white flex justify-center items-center flex-col mx-auto px-5">
-        <div className="max-w-7xl w-full">
-          <FloatingNav navItems={navItems}/>
-          <Hero />
-          <Grid />
-          <RecentProjects />
-          <Footer />
-        </div>
-      </main>
-
+    <main className="relative dark:bg-gray-900 bg-white flex flex-col justify-start items-center min-h-screen">
+      <FloatingNav navItems={navItems} />
+      <Hero />
+      <div className="w-full max-w-7xl px-5">
+        
+        <Grid />
+        <RecentProjects />
+        <Footer />
+      </div>
+    </main>
   );
 }
 

@@ -38,7 +38,7 @@ export const RecentProjects = () => {
                                     style={{
                                         transform: `translateX(-${5 * index * 2}px)`}}
                                     >
-                                        <Image src={icon} alt={icon} className='p-2' fill={true} />
+                                        <Image src={icon} alt={icon} className='p-2' width={60} height={60} />
                                     </div>
                                 ))}
                             </div>

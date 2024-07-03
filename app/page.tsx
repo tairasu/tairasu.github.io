@@ -1,6 +1,5 @@
 'use client';
 
-import { Providers } from './providers';
 import Footer from "@/components/Footer";
 import { Grid } from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -10,7 +9,7 @@ import { navItems } from "@/data";
 
 function Home() {
   return (
-    <Providers>
+
       <main className="relative dark:bg-gray-900 bg-white flex justify-center items-center flex-col mx-auto px-10 lg:px-5">
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems}/>
@@ -20,7 +19,7 @@ function Home() {
           <Footer />
         </div>
       </main>
-    </Providers>
+
   );
 }
 

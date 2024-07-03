@@ -12,7 +12,7 @@ const Hero = () => {
 
 
   return (
-    <div className="pt-36 pb-96 lg:pb-36">
+    <div className="pt-36 pb-96 lg:pb-40">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -51,7 +51,7 @@ const Hero = () => {
       <div className="flex justify-center lg:justify-start relative my-20 z-10">
         <div className="max-w-7xl w-full md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center lg:items-start justify-center lg:ml-32">
           <h2 className="uppercase tracking-widest text-xs text-left dark:text-blue-100 text-blue-950 max-w-80">
-            {/* {t("Hero.welcome")} */}
+            Welcome
           </h2>
           <TextGenerateEffect
             className="text-left text-2xl md:text-5xl lg:text-6xl max-w-3xl"

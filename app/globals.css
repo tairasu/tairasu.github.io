@@ -87,8 +87,3 @@
     background: linear-gradient(90deg, #311616 0%, #1f0606 100%);
   }
 }
-
-#about {
-  padding-top: 60px; /* Adjust based on the height of your fixed header */
-  margin-top: -60px; /* Adjust based on the height of your fixed header */
-}

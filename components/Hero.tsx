@@ -12,7 +12,7 @@ const Hero = () => {
 
 
   return (
-    <div className="pt-36 pb-96 lg:pb-36">
+    <div className="pt-32 pb-96 lg:pb-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -32,11 +32,11 @@ const Hero = () => {
         {/* <div className="flex border w-full lg:h-60 h-full sm:flex-col justify-center items-center"> */}
 
         <div className="">
-          <div className="flex justify-end items-end lg:w-full h-auto w-52 mx-auto absolute right-0 bottom-0 z-10">
+          <div className="flex justify-end items-end lg:w-full h-auto w-52 mx-auto absolute right-0 bottom-0">
             <Image
               src="/resources/Marco_2.png"
               alt="Marco Tylus"
-              className="lg:w-96 w-64 md:w-72 h-auto"
+              className="lg:w-96 w-64 md:w-72 h-auto z-10"
               width={300}
               height={300}
             />
@@ -49,7 +49,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center lg:justify-start relative my-20 z-10">
-        <div className="max-w-7xl w-full md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center lg:items-start justify-center lg:ml-32">
+        <div className="max-w-7xl w-full md:max-w-2xl lg:max-w-[60vw] flex flex-col items-start justify-center lg:ml-32">
           <h2 className="uppercase tracking-widest text-xs text-left dark:text-blue-100 text-blue-950 max-w-80">
             {/* {t("Hero.welcome")} */}
           </h2>

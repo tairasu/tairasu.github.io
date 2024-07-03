@@ -12,7 +12,7 @@ function Home() {
     <main className="relative dark:bg-gray-900 bg-white flex flex-col justify-start items-center min-h-screen">
       <FloatingNav navItems={navItems} />
       <Hero />
-      <div className="w-full max-w-7xl px-5">
+      <div className="w-full max-w-7xl">
         
         <Grid />
         <RecentProjects />

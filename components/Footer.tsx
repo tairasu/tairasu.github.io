@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-20 pb-10 px-5" id="contact">
         <div className="w-full absolute bottom-0 left-0">
             <Image
                 src="/footer-grid.svg"
@@ -24,7 +24,7 @@ const Footer = () => {
             <h1 className="heading leading-3 dark:text-white text-gray-800 lg:max-w-[45vw]">
                 Contact me to get <span className="dark:text-orange-200 text-orange-400">your</span> project started
             </h1>
-            <p className="py-4 dark:text-white text-gray-800">
+            <p className="py-8 dark:text-white text-gray-800 text-center">
                 Need IT assistance? Set up a server? Or just need a website for your business? Let&apos;s get in touch!
             </p>
             <a href="mailto:marco@tylus.dev">

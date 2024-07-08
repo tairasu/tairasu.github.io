@@ -81,9 +81,9 @@ const handleCopy = () => {
             <Image
               src={img}
               alt={img}
-              width={300}
-              height={300}
-              className={cn(imgClassName, "object-cover, object-center")}
+              width={500}
+              height={500}
+              className={cn(imgClassName, "object-contain, object-center")}
             />
           )}
         </div>
@@ -92,14 +92,14 @@ const handleCopy = () => {
             id === 5 && "w-full opacity-80"
           }`}
         >
-          {spareImg && (
+          {/* {spareImg && (
             <Image
               src={spareImg}
               alt={spareImg}
               fill={true}
               className={"object-cover, object-center w-full h-full"}
             />
-          )}
+          )} */}
         </div>
 
         <div>

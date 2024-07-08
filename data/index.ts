@@ -30,7 +30,7 @@ export const CV = [
     title: "edeltravel Luxusreisen GmbH",
     description: "Digital Developer",
     year: "2023",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     link: "https://edel.travel"
@@ -40,7 +40,7 @@ export const CV = [
     title: "Kumamoto Gakuen University",
     description: "Studied Business Japanese",
     year: "2022",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     link: "https://www.kumagaku.ac.jp/"
@@ -50,7 +50,7 @@ export const CV = [
     title: "Heinrich Heine University Düsseldorf",
     description: "BA - Modern Japan",
     year: "2019",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     link: "https://hhu.de/"
@@ -60,7 +60,7 @@ export const CV = [
     title: "Westdeutscher Rundfunk (WDR)",
     description: "Video & Audio Producer",
     year: "2017",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     link: "https://www1.wdr.de/"
@@ -70,7 +70,7 @@ export const CV = [
     title: "SAE Institute Cologne",
     description: "BA - 3D Animation & Game Design",
     year: "2015",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     link: "https://www.sae.edu/deu/de/"
@@ -83,7 +83,7 @@ export const gridItems = [
     title: "CV",
     description: "123",
     list: CV,
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "",

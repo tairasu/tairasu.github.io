@@ -33,7 +33,7 @@ const Hero = () => {
           {/* {t("Hero.welcome")} */}
         </h2>
         <TextGenerateEffect
-          className="text-left text-2xl md:text-5xl lg:text-6xl max-w-3xl mt-24"
+          className="text-left text-2xl md:text-3xl lg:text-6xl max-w-lg lg:max-w-6xl mt-24"
           words="Hi, I am Marco, a Web Developer, 3D Artist and Video Producer."
         />
         <p className="text-left dark:text-white text-gray-600 md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
@@ -50,12 +50,12 @@ const Hero = () => {
 
       {/* Image */}
       <div className="relative w-full">
-        <div className="absolute bottom-0 right-0 lg:w-96 w-64 md:w-72 z-20">
+        <div className="absolute bottom-0 right-0 xl:w-3/12 lg:w-3/12 md:w-4/12 w-7/12 overflow-hidden landscape:max-h-[90vh] landscape:max-w-[35vw]">
           <Image
             src="/resources/Marco_2.png"
             alt="Marco Tylus"
-            width={300}
-            height={300}
+            width={1000}
+            height={1200}
             className="w-full h-auto"
           />
         </div>

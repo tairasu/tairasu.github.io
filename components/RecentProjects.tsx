@@ -13,12 +13,12 @@ export const RecentProjects = () => {
         <h1 className="heading dark:text-white text-gray-800">
             A selection of my {' '}
             <span className="dark:text-orange-200 text-orange-400">recent projects</span>
-            <div className="flex flex-wrap justify-center items-center p-4 gap-x-24 mt-10">
+            <div className="flex flex-wrap justify-center items-center p-4 gap-x-24">
                 {projects.map(({id, title, des, img, iconLists, link}
                 ) => (
-                    <div key={id} className="lg:min-h-[32.5rem] sm:w-[570px] sm:h-[41rem] h-[32rem] flex items-center justify-center w-[80vw]">
+                    <div key={id} className="lg:min-h-[25rem] sm:w-[570px] lg:h-[38rem] h-[28rem] flex items-center justify-center w-[80vw]">
                         <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10'>
+                        <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-48 lg:h-72 mb-10'>
                             <div className='dark:block hidden relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <Image src='/bg.png' alt='bg-img' className="w-full h-full" fill={true} />
                             </div>

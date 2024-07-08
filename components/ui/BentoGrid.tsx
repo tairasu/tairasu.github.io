@@ -115,11 +115,11 @@ const handleCopy = () => {
             )}
           >
             {id !== 1 && (
-              <div className="font-sans font-light text-orange-900 text-xs dark:text-indigo-100 lg:text-base z-10">
+              <div className="font-sans font-light text-orange-900 text-xs dark:text-indigo-100 lg:text-base z-10 max-w-36">
               {description}
             </div>)}
             
-            <div className="font-sans dark:text-white text-gray-900 font-bold text-lg lg:text-3xl py-4 max-w-96 z-10">
+            <div className="font-sans dark:text-white text-gray-900 font-bold text-lg lg:text-2xl py-4 max-w-96 z-10">
               {title}
             </div>
 

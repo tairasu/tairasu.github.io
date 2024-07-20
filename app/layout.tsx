@@ -22,6 +22,7 @@ export default function RootLayout({
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <script
         src="https://js-de.sentry-cdn.com/7d3ca20bae01151cc9be44daa78c3c0a.min.js"
+        crossOrigin="anonymous"
       >
       </script>
       </head>

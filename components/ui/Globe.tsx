@@ -216,8 +216,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
         .arcStartLng(d => (d as { startLng: number }).startLng)
         .arcEndLat(d => (d as { endLat: number }).endLat)
         .arcEndLng(d => (d as { endLng: number }).endLng)
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        .arcColor((e: any) => (e as { color: string }).color)
+        .arcColor((e: unknown) => (e as { color: string }).color)
         .arcAltitude(e => {
           return (e as { arcAlt: number }).arcAlt
         })
@@ -231,8 +230,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
     globeRef.current
         .ringsData([])
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        .ringColor((e: any) => (t: any) => e.color(t))
+        .ringColor((e: unknown) => (t: unknown) => (e as { color: (t: unknown) => string }).color(t))
         .ringMaxRadius(defaultProps.maxRings)
         .ringPropagationSpeed(RING_PROPAGATION_SPEED)
         .ringRepeatPeriod(

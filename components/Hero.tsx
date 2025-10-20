@@ -34,7 +34,7 @@ const Hero = () => {
         </h2>
         <TextGenerateEffect
           className="text-left text-2xl md:text-3xl lg:text-6xl max-w-lg lg:max-w-6xl mt-24"
-          words="Hi, I am Marco, a Web Developer, 3D Artist and Video Producer."
+          words="Hi, I am Marco, a Software Developer, 3D Artist and Video Producer."
         />
         <p className="text-left dark:text-white text-gray-600 md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
           Technology enthusiast with a passion for learning and creating.

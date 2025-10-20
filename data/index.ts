@@ -7,7 +7,7 @@ export const navItems = [
 export const Hero =
   {
     welcome: "Welcome",
-    header: "Hi, I am Marco, a Web Developer, 3D Artist and Video Producer.",
+    header: "Hi, I am Marco, a Software Developer, 3D Artist and Video Producer.",
     subheader: "Technology enthusiast with a passion for learning and creating.",
     more: "Learn more about me"
   };
@@ -165,7 +165,7 @@ export const projects = [
     title: "Felice Music School Website",
     des: "A website for a Japanese music school located in Nogata, Fukuoka.",
     img: "/felice-preview.png",
-    iconLists: ["/tail.svg", "/wp.svg", "/php.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://felice.school/",
   },
   {
@@ -178,6 +178,14 @@ export const projects = [
   },
   {
     id: 4,
+    title: "JaJapan eSIM",
+    des: "Unlimited data plans for visitors to Japan, at the most affordable prices in the industry.",
+    img: "/jajapan-esim.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://esim.jajapan.com",
+  },
+  {
+    id: 5,
     title: "Various Projects",
     des: "A collection of small open source projects I've worked on in the past.",
     img: "/github-preview.png",

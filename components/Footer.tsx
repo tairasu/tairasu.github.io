@@ -48,7 +48,7 @@ const Footer = () => {
 
             {/* copyright 2024 Marco Tylus */}
             <div className="text-xs text-gray-400 mt-10">
-                &copy; 2024 Marco Tylus
+                &copy; 2024{new Date().getFullYear() > 2024 ? `-${new Date().getFullYear()}` : ''} Marco Tylus
             </div>
         </div>
     </footer>
